@@ -7,6 +7,11 @@
   flex-direction: column;
   margin-top: 5%;
 }
+.divider-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 .divider {
   width: 500px;
   height: 100px;
@@ -30,15 +35,14 @@
   border-radius: 50px;
   margin-top: 170px;
 }
-.divider-container {
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  margin-top: -60%;
-}
 
 @media (max-width: 768px) {
+  .divider-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: -60%;
+  }
   .divider {
     width: 300px;
     height: 50px;

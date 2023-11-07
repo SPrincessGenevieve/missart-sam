@@ -4,8 +4,8 @@
 }
 .welcome {
   margin-left: 45px;
-  margin-top: -4%;
-  margin-bottom: 150px;
+  margin-top: -7%;
+  margin-bottom: 10%;
   transform: translateY(-20px);
   transition: opacity 1s, transform 1s;
   opacity: 0;
