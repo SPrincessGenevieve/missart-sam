@@ -1,0 +1,21 @@
+.gallery-container-public {
+  background: linear-gradient(to bottom, #ffe1e1, white);
+  display: flex;
+  flex: 1;
+}
+.gallery-subcontainer-public {
+  margin-top: 12rem;
+}
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .gallery-container-public {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+  }
+}

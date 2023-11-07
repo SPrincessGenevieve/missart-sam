@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
@@ -9,16 +9,16 @@ import { Provider } from "react-redux";
 import { rootReducer } from "./redux/reducers";
 
 const store = createStore(rootReducer);
+const root = createRoot(document.getElementById("root"));
 
-ReactDOM.render(
+root.render(
   <React.StrictMode>
     <Provider store={store}>
       <HashRouter>
         <App />
       </HashRouter>
     </Provider>
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );
 
 reportWebVitals();

@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
 function AboutUsPublic(props) {
-    return (
-        <div>
-            
-        </div>
-    );
+  return (
+    <div>
+      <h1>ABOUT US PUBLIC</h1>
+    </div>
+  );
 }
 
 export default AboutUsPublic;
