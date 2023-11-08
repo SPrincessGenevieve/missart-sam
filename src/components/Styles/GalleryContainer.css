@@ -50,6 +50,17 @@
 .main-image .private {
   margin-top: 15%;
 }
+.individual-container-private {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+.individual-art-private {
+  width: 50%;
+  height: 50%;
+  border-radius: 10%;
+}
 
 @media (max-width: 768px) {
   .divider-container {

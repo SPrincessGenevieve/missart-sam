@@ -24,10 +24,12 @@
   width: 50%;
   display: flex;
   justify-content: center;
+  margin-bottom: 3%;
 }
 .individual-art-public {
   width: 50%;
   height: 50%;
+  border-radius: 10%;
 }
 
 .title-public-gallery-container {
