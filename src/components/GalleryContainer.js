@@ -182,7 +182,8 @@ function GalleryContainer({
           }}
         >
           <GalleryDisplay
-            className="image-img"
+            classNameImage={"individual-art-private"}
+            classNameDiv={"individual-container-private"}
             selectedImageId={selectedImage.id}
             selectedImageData={selectedImage}
             imageUrl={selectedImage.imageUrl}
