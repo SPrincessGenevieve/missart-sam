@@ -17,6 +17,7 @@ import Records from "./pages/Private/Records";
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+
   const checkAuthentication = () => {
     setIsAuthenticated(true);
   };

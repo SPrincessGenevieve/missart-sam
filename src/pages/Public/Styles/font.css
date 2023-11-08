@@ -10,7 +10,7 @@
   transition: opacity 1s, transform 1s;
   opacity: 0;
 }
-.welcome-text {
+.title-public-gallery {
   font-family: "FugglesRegular";
   font-weight: lighter;
   font-size: 90px;
@@ -32,7 +32,7 @@
     position: absolute;
     margin-left: 0;
   }
-  .welcome-text {
+  .title-public-gallery {
     font-family: "FugglesRegular";
     font-weight: lighter;
     font-size: 60px;

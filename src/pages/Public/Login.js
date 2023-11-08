@@ -20,7 +20,7 @@ function Login(props) {
 
   const handleLogin = () => {
     if (username === "admin" && password === "1234") {
-      navigate("/list");
+      navigate("/records");
     } else {
       setError("Invalid username or password");
     }

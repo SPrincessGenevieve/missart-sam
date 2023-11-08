@@ -2,12 +2,11 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./Styles/GalleryDisplay.css";
 
-function GalleryDisplay({
+function GalleryDisplayPrivate({
   selectedImageId,
   selectedImageData,
   style,
-  classNameImage,
-  classNameDiv,
+  className,
 }) {
   const [images, setImages] = useState([]);
 
@@ -25,9 +24,9 @@ function GalleryDisplay({
   return (
     <>
       {selectedImageId && selectedImageData ? (
-        <div className={classNameDiv}>
+        <div className="main-image  private">
           <img
-            className={classNameImage}
+            className={className}
             style={style}
             src={selectedImageData.image}
             alt="Selected"
@@ -40,4 +39,4 @@ function GalleryDisplay({
   );
 }
 
-export default GalleryDisplay;
+export default GalleryDisplayPrivate;

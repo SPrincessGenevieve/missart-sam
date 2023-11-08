@@ -1,0 +1,13 @@
+.gallery-subcontainer-private {
+  margin-top: 20%;
+}
+
+.gallery-container-private {
+  display: flex;
+  background: linear-gradient(to bottom, #ffe1e1, white);
+}
+@media (max-width: 768px) {
+  .gallery-subcontainer-private {
+    margin-top: 55%;
+  }
+}
