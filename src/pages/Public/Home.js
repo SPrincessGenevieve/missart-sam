@@ -206,6 +206,12 @@ function Home(props) {
                 minWidth: "50%",
                 minHeight: "40%",
               },
+              "@media (max-width: 768px)": {
+                "& .MuiDialog-paper": {
+                  minWidth: "90%",
+                  minHeight: "90%",
+                },
+              },
             }}
           >
             <DialogTitle>Terms of Services</DialogTitle>

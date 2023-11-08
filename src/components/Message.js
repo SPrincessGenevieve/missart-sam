@@ -1,10 +1,10 @@
 import React from "react";
 import { Facebook, Instagram, Twitter } from "@mui/icons-material";
-
+import "./Styles/TermsConditions.css";
 function Message(props) {
   return (
     <>
-      <p className="terms-agrement">
+      <label className="terms-agrement">
         Clients have the option to choose between a 50% downpayment or full
         upfront payment once the sketch is approved. Please note that refunds or
         cancellations are not permitted after payment has been made. The
@@ -23,8 +23,10 @@ function Message(props) {
         keep you informed with periodic updates on the progress of your
         commission. Once the commission is finalized, a PNG file will be sent to
         you via email.
-      </p>
-      <p>By clicking proceed you have agreed to the terms of services</p>
+      </label>
+      <h3 style={{ marginTop: 30, fontWeight: "normal", fontSize: 17 }}>
+        By clicking proceed you have agreed to the terms of services
+      </h3>
       <div>
         <h3>You can follow and contact us on:</h3>
         <a className="link" href="https://www.instagram.com/missartarchive/">
