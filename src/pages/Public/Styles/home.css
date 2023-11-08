@@ -75,10 +75,11 @@
   .input-container-home {
     display: flex;
     flex-direction: column;
-    margin-top: 45%;
+    margin-top: 47%;
     transform: translateY(-20px);
     transition: opacity 1s, transform 1s;
     opacity: 0;
+    background-color: white;
   }
   .fade-input {
     opacity: 1;

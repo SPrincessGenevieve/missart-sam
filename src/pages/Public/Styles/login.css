@@ -32,3 +32,30 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .login-container-white {
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 0px 0px #8b242431;
+    margin-top: 50%;
+  }
+
+  .login-subcontainer {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .login-container {
+    display: flex;
+    height: 100%;
+    background-color: white;
+    transform: translateY(-20px);
+    transition: opacity 1s, transform 1s;
+    opacity: 0;
+  }
+}

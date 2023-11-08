@@ -152,5 +152,8 @@
 @media (max-width: 768px) {
   .search-input {
     width: 52%;
+    height: 60px;
+    margin-right: 10px;
+    margin-top: 20px;
   }
 }

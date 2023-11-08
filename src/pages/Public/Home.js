@@ -321,25 +321,6 @@ function Home(props) {
               <source src={BG} type="video/mp4"></source>
             </video>
           </div>
-          <div
-            className={`link-container-home ${showButton ? "fade-button" : ""}`}
-          >
-            <a
-              className="link"
-              href="https://www.instagram.com/missartarchive/"
-            >
-              <Instagram></Instagram>@missartarchive
-            </a>
-            <a
-              className="link"
-              href="https://web.facebook.com/MissArtCommission"
-            >
-              <Facebook></Facebook>@missartcommission
-            </a>
-            <a className="link" href="https://twitter.com/MissARTarchive">
-              <Twitter></Twitter>@missartarchive
-            </a>
-          </div>
         </div>
       </div>
     </>

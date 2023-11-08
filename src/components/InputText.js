@@ -34,7 +34,7 @@ function InputText({
         </div>
         <input
           className="inputbox"
-          style={{ width: width, height: height }}
+          style={{ width: width, height: height, backgroundColor: "white" }}
           type={type}
           name={name}
           value={value}
